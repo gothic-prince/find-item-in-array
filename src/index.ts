@@ -1,4 +1,4 @@
-const find = (value: any): findItem => {
+export default function (value: any): findItem {
   return new findItem(value)
 }
 class findItem {
@@ -18,4 +18,3 @@ class findItem {
     return items[items.length - 1]
   }
 }
-export default find

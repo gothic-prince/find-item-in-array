@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var find = function (value) {
+function default_1(value) {
     return new findItem(value);
-};
+}
+exports.default = default_1;
 var findItem = (function () {
     function findItem(value) {
         this.value = value;
@@ -23,4 +24,3 @@ var findItem = (function () {
     };
     return findItem;
 }());
-exports.default = find;
