@@ -1,0 +1,13 @@
+{
+  "name": "find-item-in-array",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/gothic-prince/find-item-in-array.git",
+  "author": "gothic-prince",
+  "license": "MIT",
+  "test": "jest",
+  "devDependencies": {
+    "jest": "^22.0.4",
+    "jest-cli": "^22.0.4"
+  }
+}
